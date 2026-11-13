@@ -6,6 +6,8 @@ way the prep printers split them.
 
 **[⬇ Download the latest version](https://github.com/manishshres/coneeko-kds-releases/releases/latest)**: `Coneeko-KDS-Setup.exe`
 
+![Kitchen board: tickets split by station, with the open-item tally on the left](docs/kitchen-board.png)
+
 ## Features
 
 - **Stations by printer:** Tandoor, Curry and Expo, matching the POS prep printers.
@@ -18,6 +20,23 @@ way the prep printers split them.
 - **Auto-close** for forgotten tickets, and everything closes at the end of the night.
 - **Works offline** on the local network. Read-only: it never changes the POS.
 - **Updates itself** after hours.
+
+## Screenshots
+
+| Control app on the till | Settings |
+|---|---|
+| ![Control app: server, order feed and update status](docs/control-app.png) | ![Settings: POS folder, auto-close, update checks](docs/settings.png) |
+
+The screenshots use made-up orders.
+
+## What you need
+
+- **Till PC:** Windows 10 or 11, 64-bit, running Point of Success.
+- **Kitchen screens:** any tablet, TV or PC with a web browser, on the same
+  network as the till.
+- **Nothing else to install.** Python, Qt and everything the app needs are inside
+  the installer. You don't need to install Python, and the till doesn't need
+  internet to run it (only to fetch updates).
 
 ## Install
 
